@@ -6,8 +6,6 @@ import (
 )
 
 func isSame(z, d float64, i int) bool {
-	fmt.Println(z, d, i)
-
 	if (z == d || d - z <= 0.000001) && i > 0 {
 		return true
 	}
